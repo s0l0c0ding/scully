@@ -145,6 +145,10 @@ export const config: ScullyConfig = {
       type: 'default',
       postRenderers: [removeBottomScripts],
     },
+    '/scully-plugin-md-replace-route': {
+      type: 'mdReplaceRoute',
+      file: './assets/hello-scully.md',
+    },
   },
   guessParserOptions: {
     excludedFiles: ['apps/sample-blog/src/app/exclude/exclude-routing.module.ts'],
