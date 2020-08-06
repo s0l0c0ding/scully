@@ -1,4 +1,26 @@
 {
   "name": "@scullyio/scully-plugin-md-replace-route",
-  "version": "0.0.1"
+  "version": "1.0.0-beta.0",
+  "main": "index.js",
+  "contributors": [
+    "Israel Guzman <isragp4@gmail.com>"
+  ],
+  "dependencies": {
+    "tslib": "^1.13.0"
+  },
+  "peerDependencies": {
+    "@scullyio/scully": "*"
+  },
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/scullyio/scully/tree/main/libs/plugins/scully-plugin-flash-prevention"
+  },
+  "keywords": [
+    "angular",
+    "scully",
+    "seo",
+    "scully-plugin",
+    "plugin",
+    "markdown"
+  ]
 }
